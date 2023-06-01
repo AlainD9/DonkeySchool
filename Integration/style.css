@@ -7,3 +7,10 @@ img{
 header:first-child{
     filter:grayscale(100%)
 }
+.hiddenMenu {
+  display: none;
+  text-decoration-line: none;
+}
+.menu:hover .hiddenMenu {
+  display: block;
+}
