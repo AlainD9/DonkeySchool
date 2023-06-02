@@ -10,6 +10,14 @@ img{
   width: 100%;
   height: auto;
   border-radius: 3px;
+  border-color: purple;
+  border-style: groove;
+}
+@media screen and (min-width: 600px){
+  img{
+    width: 600px;
+    height: auto;
+    }
 }
 header:first-child{
   filter:grayscale(100%)
