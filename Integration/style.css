@@ -2,13 +2,13 @@ html{
   font-size: 62.5%;
 }
 img:hover{
-    opacity:0.5;  
+  opacity:0.5;  
 }
 img{
-    border-radius: 3px;
+  border-radius: 3px;
 }
 header:first-child{
-    filter:grayscale(100%)
+  filter:grayscale(100%)
 }
 .hiddenMenu {
   display: none;
@@ -16,4 +16,17 @@ header:first-child{
 }
 nav:hover .hiddenMenu {
   display: block;
+}
+@media screen and (min-width: 0px) {
+  *{
+    color: white;
+    background: black;
+  }
+}
+@media screen and (min-width: 600px) {
+  *{
+    color: black;
+    background: white;
+  }
+  
 }
