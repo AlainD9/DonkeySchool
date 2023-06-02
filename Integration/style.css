@@ -1,10 +1,14 @@
-html{
+*{
+  margin: 0;
+  padding: 0;
   font-size: 62.5%;
 }
 img:hover{
   opacity:0.5;  
 }
 img{
+  width: 100%;
+  height: auto;
   border-radius: 3px;
 }
 header:first-child{
